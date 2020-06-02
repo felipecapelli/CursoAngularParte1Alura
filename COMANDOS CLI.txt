@@ -1,0 +1,17 @@
+Para instalar o angular CLI:
+npm install -g @angular/cli@6.0.7
+
+Verificar se o cli foi instalado e a versão:
+ng --version
+
+Para criar um projeto:
+ng new alurapic
+
+Iniciar o servidor node:
+ng serve --open
+ou
+npm start
+
+Importar o bootstrap: (TEM QUE ADICIONAR O CAMINHO NO ARQUIVO Angular.json)
+npm install bootstrap@4.1.1
+
