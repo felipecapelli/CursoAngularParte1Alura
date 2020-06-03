@@ -1,3 +1,12 @@
+//------------------------------------------------ faz se quiser
+Padronizar aspas simples nos imports:
+No VSCode ir em File/ Preferences/ Settings/ e colar o seguinte texto nas configurações do usuário(pode estar num icone no canto superior direito):
+"javascript.preferences.quoteStyle":"single",
+"typescript.preferences.quoteStyle": "single"
+//------------------------------------------------ faz se quiser
+
+Comandos CLI:
+
 Para instalar o angular CLI:
 npm install -g @angular/cli@6.0.7
 
@@ -15,3 +24,8 @@ npm start
 Importar o bootstrap: (TEM QUE ADICIONAR O CAMINHO NO ARQUIVO Angular.json)
 npm install bootstrap@4.1.1
 
+Para criar um component pelo cmd (entrar na pasta do projeto com cd) (lembrando que o padrão eh de criar na pasta app, mas aqui pedimos pra descer para a pasta photos que ja existe)
+ng generate component photos/photo-list
+
+Para criar um modulo (nesse caso vai criar na pasta raiz app)
+ng generate module errors
