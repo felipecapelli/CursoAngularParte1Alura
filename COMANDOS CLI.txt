@@ -24,6 +24,9 @@ npm start
 Importar o bootstrap: (TEM QUE ADICIONAR O CAMINHO NO ARQUIVO Angular.json)
 npm install bootstrap@4.1.1
 
+Importar o font awesome(TEM QUE ADICIONAR O CAMINHO NO ARQUIVO Angular.json)
+npm install font-awesome@4.7.0
+
 Para criar um component pelo cmd (entrar na pasta do projeto com cd) (lembrando que o padrão eh de criar na pasta app, mas aqui pedimos pra descer para a pasta photos que ja existe)
 ng generate component photos/photo-list
 (da pra abreviar generate e component, ficando assim ng g c photos/photo-list)
